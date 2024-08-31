@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Garamond";
+	src: url("/fonts/EBGaramond-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: "Garamond-Italic";
+	src: url("/fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: "Montserrat-Italic";
+	src: url("/fonts/Montserrat-Italic-VariableFont_wght.ttf") format("opentype");
+}

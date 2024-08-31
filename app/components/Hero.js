@@ -1,10 +1,26 @@
+import BaseButton from "@/components/base/BaseButton"
+
 const Hero = async () => {
 	return (
-		<article className="h-[80svh] flex flex-col items-center justify-cente mt-96">
-			<h1>Webseiten für dein Unternehmen – Einfaches Content-Management</h1>
-			<h2>Müde davon, bei jeder Änderung den Programmierer anzurufen?</h2>
-			<h3>Zeit sparen, Kosten reduzieren.</h3>
-			<p>Verwalten Sie Ihre Inhalte einfach selbst.</p>
+		<article className="h-[80svh] flex flex-col items-start justify-center">
+			<section>
+				<h1 className="pb-4">
+					Webseiten für dein Unternehmen.
+					<br />
+					Inhalt unter deiner Kontrolle.
+				</h1>
+				<h2 className="mt-8 mb-2">Müde davon, bei jeder Änderung den Programmierer anzurufen?</h2>
+				<strong>Verwalte deine Inhalte einfach selbst.</strong>
+			</section>
+			<section className="mx-auto mt-24 px-3 py-1.5 rounded-xl bg-primary text-black">
+				<BaseButton iconType="phone" width="2rem" height="2rem" link="0123456789">
+					<span className="text-start">
+						Lass uns
+						<br />
+						kennenlernen
+					</span>
+				</BaseButton>
+			</section>
 		</article>
 	)
 }

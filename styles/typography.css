@@ -1,0 +1,13 @@
+@import "@/styles/font-faces.css";
+
+body {
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+
+h1,
+.h1 {
+	@apply text-4xl font-bold;
+	font-family: "Garamond";
+	font-weight: 500;
+}

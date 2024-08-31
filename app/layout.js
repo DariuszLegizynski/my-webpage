@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 
-import "./globals.css"
+import "@/styles/tailwind.css"
 
 export const metadata = {
 	title: "Create Next App",
@@ -12,7 +12,7 @@ const RootLayout = ({ children }) => {
 		<html lang="en">
 			<body>
 				<Header />
-				<main className="px-4">{children}</main>
+				<main className="mt-24 px-4">{children}</main>
 			</body>
 		</html>
 	)

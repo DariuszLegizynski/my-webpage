@@ -14,11 +14,7 @@ const Hero = async () => {
 			</section>
 			<section className="mx-auto mt-24 px-3 py-1.5 rounded-xl bg-primary text-black">
 				<BaseButton iconType="phone" width="2rem" height="2rem" link="0123456789">
-					<span className="text-start">
-						Lass uns
-						<br />
-						kennenlernen
-					</span>
+					<span className="text-start">Lass uns kennenlernen</span>
 				</BaseButton>
 			</section>
 		</article>

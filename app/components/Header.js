@@ -3,13 +3,13 @@ import BaseButton from "@/components/base/BaseButton"
 const Header = async () => {
 	return (
 		<nav className="fixed top-0 flex items-center w-full p-4">
-			<div href="/#hero">
+			<div className="bg-white px-1 py-1.5 rounded-xl" href="/#hero">
 				<p>Logo</p>
 			</div>
 			<ul className="flex items-center gap-x-4 justify-end w-full">
 				<li className="text-primary-dark">
-					<div href="/#about">
-						<h3>Über Mich</h3>
+					<div className="bg-white px-2 py-1.5 rounded-xl" href="/#about">
+						<p>Über Mich</p>
 					</div>
 				</li>
 				<li className="px-3 py-1.5 rounded-xl bg-primary text-black">

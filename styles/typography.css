@@ -7,7 +7,19 @@ body {
 
 h1,
 .h1 {
-	@apply text-4xl font-bold;
+	@apply text-4xl;
 	font-family: "Garamond";
 	font-weight: 500;
+}
+
+h2,
+.h2 {
+	@apply text-3xl;
+	font-weight: 700;
+}
+
+h3,
+.h3 {
+	@apply text-2xl;
+	font-weight: 700;
 }

@@ -23,3 +23,21 @@ h3,
 	@apply text-2xl;
 	font-weight: 700;
 }
+
+label {
+	@apply text-primary text-sm tracking-wide;
+	font-weight: 600;
+}
+
+input {
+	@apply outline-none;
+}
+
+input::placeholder {
+	@apply text-black text-sm sm:text-base md:text-lg xl:text-xl uppercase tracking-widest;
+	font-weight: 600;
+}
+
+textarea::placeholder {
+	@apply text-primary;
+}

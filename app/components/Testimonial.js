@@ -1,9 +1,9 @@
 const Testimonial = async ({ description, author }) => {
 	return (
-		<article>
+		<section className="pt-8 grid grid-cols-1">
 			<p>{description}</p>
-			<p>{author}</p>
-		</article>
+			<p className="pt-4 text-center">{author}</p>
+		</section>
 	)
 }
 

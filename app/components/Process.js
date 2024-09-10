@@ -16,12 +16,12 @@ const Process = async () => {
 		},
 	]
 	return (
-		<article>
+		<article className="mt-12">
 			<section>
-				<h2>Das bewährte aufbau System</h2>
-				<h3>Ich habe genügend Websiten erstellt</h3>
-				<h3>um zu wissen, wie es richtig funktioniert.</h3>
-				<p>Wozu für jede kleine änderung bezahlen</p>
+				<h2 className="pb-4">Das bewährte aufbau System</h2>
+				<h3 className="pb-2">Ich habe genügend Websiten erstellt</h3>
+				<h3 className="pb-4">um zu wissen, wie es richtig funktioniert.</h3>
+				<p>Wozu für jede kleine änderung zahlen</p>
 				<p>Wenn man es auch selber machen kann?</p>
 			</section>
 			{ProcessCards.map((card, index) => (

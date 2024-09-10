@@ -68,11 +68,11 @@ const Contact = () => {
 
 	return (
 		<article>
-			<h2>Fangen wir an</h2>
+			<h2 className="mt-12">Lass uns Anfangen</h2>
 			{!emailSent.loading && !emailSent.success && !emailSent.error && (
 				<Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
 					{({ isSubmitting }) => (
-						<Form className="p-2">
+						<Form className="p-2 mt-8">
 							<div className="mb-6 grid grid-rows-[auto_auto]">
 								<Field name="name" type="text" component={BaseInput} text="Name" isRequired />
 							</div>

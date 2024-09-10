@@ -19,8 +19,8 @@ const Testimonials = async () => {
 		},
 	]
 	return (
-		<article>
-			<h1>Einige Meinungen</h1>
+		<article className="mt-16">
+			<h1>Kundenmeinungen</h1>
 			{testimonialsItems.map((testimonialItem, index) => (
 				<Testimonial key={`testimonial-${index}`} description={testimonialItem.description} author={testimonialItem.author} />
 			))}

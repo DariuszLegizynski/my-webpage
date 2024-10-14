@@ -2,23 +2,25 @@ import BaseButton from "@/components/base/BaseButton"
 
 const Hero = async () => {
 	return (
-		<article className="h-[80svh] flex flex-col items-start justify-center">
+		<article className="h-[80svh] flex flex-col items-center justify-center">
 			<section className="text-center">
 				<h1 className="pb-8">
-					Webseiten für dein Unternehmen.
+					Deine Webseite für dein Unternehmen.
 					<br />
 					Inhalt unter deiner Kontrolle.
 				</h1>
-				{/* <h2 className="mt-8 mb-2">Müde davon, bei jeder Änderung den Programmierer anzurufen?</h2> */}
 				<strong>
-					Verwalte deine Inhalte
+					Verwalte deine Seite
 					<br />
 					einfach selbst.
 				</strong>
 			</section>
-			<section className="mx-auto mt-24 px-3 py-1.5 rounded-xl bg-primary text-black">
-				<BaseButton iconType="phone" width="2rem" height="2rem" link="0123456789">
+			<section className="mx-auto mt-24 grid gap-4">
+				<BaseButton buttonType="reverse" iconType="phone" width="2rem" height="2rem" strokeWidth="3" strokeColor="#4CAF50" link="0123456789">
 					<span className="text-start">Lass uns kennenlernen</span>
+				</BaseButton>
+				<BaseButton iconType="meeting" width="2rem" height="2rem" strokeWidth="1" fillColor="#FFF" strokeColor="#FFF">
+					<span className="text-start text-white">Gespräch buchen</span>
 				</BaseButton>
 			</section>
 		</article>

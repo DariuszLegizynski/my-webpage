@@ -12,9 +12,9 @@ const Header = async () => {
 						<p>Über Mich</p>
 					</div>
 				</li>
-				<li className="px-3 py-1.5 rounded-xl bg-primary text-black">
-					<BaseButton iconType="phone" width="1.2rem" height="1.2rem" strokeWidth={3} link="0123456789">
-						Anrufen
+				<li className="px-2 py-1 rounded-xl bg-primary text-black">
+					<BaseButton iconType="phone" width="1.4rem" height="1.4rem" strokeWidth="3" strokeColor="#FFF" link="0123456789">
+						<span className="text-start text-white">Anrufen</span>
 					</BaseButton>
 				</li>
 				{/* <li

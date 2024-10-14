@@ -5,7 +5,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik"
 import * as Yup from "yup"
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
 
-import BaseInput from "./Input"
+import BaseInput from "@/components/base/Input"
 
 const Contact = () => {
 	const { executeRecaptcha } = useGoogleReCaptcha()

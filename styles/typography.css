@@ -24,6 +24,11 @@ h3,
 	font-weight: 700;
 }
 
+span,
+.span {
+	font-weight: 600;
+}
+
 label {
 	@apply text-primary text-sm tracking-wide;
 	font-weight: 600;

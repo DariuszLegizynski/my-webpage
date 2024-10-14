@@ -3,7 +3,7 @@ const config = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#4CAF50",
+				primary: "#008080",
 				"primary-dark": "#304739",
 				accent: "#e4bd83",
 				black: "hsl(210, 11%, 15%)",

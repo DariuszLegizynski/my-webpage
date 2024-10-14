@@ -1,9 +1,12 @@
-const Benefit = async ({ title, text }) => {
+import BaseIcons from "@/components/base/BaseIcons"
+
+const Benefit = async ({ iconType, title, text }) => {
 	return (
-		<article>
-			<h2>{title}</h2>
+		<section className="pt-16 pb-4">
+			<BaseIcons type={iconType} width="16rem" />
+			<h2 className="py-12 pb-4">{title}</h2>
 			<p>{text}</p>
-		</article>
+		</section>
 	)
 }
 

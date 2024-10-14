@@ -16,7 +16,7 @@ const Hero = async () => {
 				</strong>
 			</section>
 			<section className="mx-auto mt-24 grid gap-4">
-				<BaseButton buttonType="reverse" iconType="phone" width="2rem" height="2rem" strokeWidth="3" strokeColor="#4CAF50" link="0123456789">
+				<BaseButton buttonType="reverse" iconType="phone" width="2rem" height="2rem" strokeWidth="3" strokeColor="#008080" link="0123456789">
 					<span className="text-start">Lass uns kennenlernen</span>
 				</BaseButton>
 				<BaseButton iconType="meeting" width="2rem" height="2rem" strokeWidth="1" fillColor="#FFF" strokeColor="#FFF">

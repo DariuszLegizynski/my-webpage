@@ -2,19 +2,22 @@ import Benefit from "./Benefit"
 
 const Benefits = async () => {
 	return (
-		<article>
-			<h1>Ich heiße Bsc Ing Dariusz Legizynski, ein Programmier mit über 10 Jahren Erfahrung. Ich bin da um zu helfen.</h1>
+		<article className="my-12">
+			<h1 className="my-8">Mein Name ist Bsc Ing Dariusz Legizynski, ein Programmierer mit über 10 Jahren Berufserfahrung. Ich bin da um zu helfen.</h1>
 			<Benefit
-				title="title 1"
-				text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam nec purus gravida interdum. Donec sit amet odio vel nunc ultricies malesuada."
+				iconType="webdevelopment"
+				title="Webdesign & Webdevelopment"
+				text="Ich habe mich darauf spezialisiert, maßgeschneiderte Websites zu erstellen, die nicht nur atemberaubend aussehen, sondern auch nahtlos funktionieren."
 			/>
 			<Benefit
-				title="title 2"
-				text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam nec purus gravida interdum. Donec sit amet odio vel nunc ultricies malesuada."
+				iconType="content"
+				title="Inhalte für Ihre Webseite"
+				text="Ich erstelle individuelle Inhalte für Webseiten, die Ihre Zielgruppe ansprechen und Ihr Unternehmen präsentieren."
 			/>
 			<Benefit
-				title="title 3"
-				text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam nec purus gravida interdum. Donec sit amet odio vel nunc ultricies malesuada."
+				iconType="control"
+				title="Volle Kontrolle über Ihre Inhalte"
+				text="Sie können die Inhalte Ihrer Webseite jederzeit selbst aktualisieren, ohne technische Vorkenntnisse zu benötigen."
 			/>
 		</article>
 	)

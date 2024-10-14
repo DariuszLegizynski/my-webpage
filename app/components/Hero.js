@@ -2,7 +2,7 @@ import BaseButton from "@/components/base/BaseButton"
 
 const Hero = async () => {
 	return (
-		<article className="h-[80svh] flex flex-col items-center justify-center">
+		<article id="hero" className="h-[80svh] flex flex-col items-center justify-center">
 			<section className="text-center">
 				<h1 className="pb-8">
 					Deine Webseite für dein Unternehmen.

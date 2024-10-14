@@ -1,9 +1,11 @@
 import BaseButton from "@/components/base/BaseButton"
+import BaseIcons from "@/components/base/BaseIcons"
 
 const Hero = async () => {
 	return (
 		<article id="hero" className="h-[80svh] flex flex-col items-center justify-center">
-			<section className="text-center">
+			<BaseIcons type="revenue" width="12rem" height="8rem" />
+			<section className="text-center mt-8">
 				<h1 className="pb-8">
 					Deine Webseite für dein Unternehmen.
 					<br />

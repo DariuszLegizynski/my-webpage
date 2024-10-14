@@ -7,8 +7,8 @@ const Services = async () => {
 				Qualitätsbeauftragter, Hardware- und Software-Entwickler gearbeitet hat, verfüge ich über eine einzigartige Mischung aus Ausbildung, Erfahrung und Zeit
 				in den unternehmerischen Bereichen.
 			</p>
-			<p className="my-4">ICH VERSTEHE es.</p>
 			<p>Sowohl Start-ups als auch bereits etablierte Unternehmen.</p>
+			<p className="my-4">ICH VERSTEHE es.</p>
 		</article>
 	)
 }

@@ -13,7 +13,7 @@ const Header = async () => {
 			<ul className="flex items-center gap-x-4 justify-end w-full">
 				<li className="px-0 py-1 rounded-xl bg-primary text-black">
 					<BaseButton iconType="meeting" link="https://cal.com/dariusz-legizynski-mqizpf" width="1.4rem" height="1.4rem" strokeWidth="3" strokeColor="#FFF">
-						<span className="text-start text-white max-w-28 xxs:max-w-max">Gespräch vereinbaren</span>
+						<span className="text-start text-white">Gespräch vereinbaren</span>
 					</BaseButton>
 				</li>
 			</ul>

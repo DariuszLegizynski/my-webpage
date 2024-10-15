@@ -56,7 +56,7 @@ const ContactForm = () => {
 
 	return (
 		<article>
-			<h2 className="mt-12">Lassen Sie uns zusammenarbeiten.</h2>
+			<h2 className="mt-12 break-words">Bereit für eine zusammenarbeit?</h2>
 			{!emailSent.loading && !emailSent.success && !emailSent.error && (
 				<Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
 					{({ isSubmitting }) => (

@@ -1,6 +1,6 @@
 const Services = async () => {
 	return (
-		<article className="my-4">
+		<article className="mt-24 mb-12">
 			<h1 className="mb-4">Ich bin Bsc&nbsp;Ing Dariusz&nbsp;Legizynski, ein Programmier mit über 10 Jahren Erfahrung. Mein Ziel ist es, Ihnen zu helfen.</h1>
 			<p>
 				Meine Stärke ist, Ihr Business auf kreativem Wege zu zeigen. Dabei behalten Sie die ganze kontrolle über Ihre Webseite. Als eine Person, die als

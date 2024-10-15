@@ -18,7 +18,7 @@ const Projects = async () => {
 		{ title: "E-commerce", description: "Premium Online-Shop", link: "https://myamazingshop-ae51c.web.app/", imagePath: "/images/ecommerce.png" },
 	]
 	return (
-		<article className="mt-24">
+		<article className="mt-24 lg:max-w-[1024px] lg:mx-auto">
 			<h2 className="mb-8 after:content-[':']">Einige der bisherigen Projekte</h2>
 			<section className="grid grid-cols-1 gap-4 md:grid-cols-2">
 				{projectCards.map((projectCard, index) => (

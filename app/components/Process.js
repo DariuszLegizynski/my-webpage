@@ -16,8 +16,11 @@ const Process = async () => {
 		},
 	]
 	return (
-		<article className="mt-24">
-			<BaseIcons type="solution" width="16rem" height="12rem" />
+		<article className="mt-24 max-w-[800px] mx-auto">
+			<h2 className="mb-8 text-center">Wie sieht der Ablauf aus?</h2>
+			<div className="flex flex-col items-center">
+				<BaseIcons type="solution" width="16rem" height="12rem" />
+			</div>
 			{ProcessCards.map((card, index) => (
 				<ProcessStep key={index} step={card.step} title={card.title} img={card.img} description={card.description} />
 			))}

@@ -684,8 +684,8 @@ const BaseIcons = async ({ type, fillColor = "none", strokeColor = "#000", width
 			{type === "revenue" && (
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					width={width}
-					height={height}
+					width="100%"
+					height="100%"
 					fill={fillColor}
 					stroke={strokeColor}
 					strokeWidth={strokeWidth}

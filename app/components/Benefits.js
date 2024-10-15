@@ -2,7 +2,7 @@ import Benefit from "./Benefit"
 
 const Benefits = async () => {
 	return (
-		<article className="my-12">
+		<article className="my-12 lg:grid lg:grid-cols-3 lg:gap-x-4 lg:max-w-[1024px] mx-auto">
 			<Benefit
 				iconType="webdevelopment"
 				title="Webdesign & Webdevelopment"

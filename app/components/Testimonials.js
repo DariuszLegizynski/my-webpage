@@ -28,18 +28,20 @@ const Testimonials = async () => {
 		},
 	]
 	return (
-		<article className="mt-16">
-			<h1>Kundenmeinungen</h1>
-			{testimonialsItems.map((testimonialItem, index) => (
-				<Testimonial
-					key={`testimonial-${index}`}
-					title={testimonialItem.title}
-					description={testimonialItem.description}
-					author={testimonialItem.author}
-					imagePath={testimonialItem.imagePath}
-					rating={testimonialItem.rating}
-				/>
-			))}
+		<article className="mt-36  lg:max-w-[1024px] lg:mx-auto">
+			<h2 className="text-center mb-12">Kundenmeinungen</h2>
+			<section className="lg:grid lg:grid-cols-3 lg:gap-x-4">
+				{testimonialsItems.map((testimonialItem, index) => (
+					<Testimonial
+						key={`testimonial-${index}`}
+						title={testimonialItem.title}
+						description={testimonialItem.description}
+						author={testimonialItem.author}
+						imagePath={testimonialItem.imagePath}
+						rating={testimonialItem.rating}
+					/>
+				))}
+			</section>
 		</article>
 	)
 }

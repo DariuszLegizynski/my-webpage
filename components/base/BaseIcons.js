@@ -637,7 +637,7 @@ const BaseIcons = async ({ type, fillColor = "none", strokeColor = "#000", width
 			{type === "logo" && (
 				<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 					<rect width="31" height="31" fill="#E5E5E5" />
-					<g clip-path="url(#clip0)">
+					<g clipPath="url(#clip0)">
 						<rect width="31" height="31" fill="white" />
 						<rect x="6" y="6" width="25.5" height="26" fill="url(#pattern0)" />
 						<rect x="-2" y="-3" width="27" height="29" fill="url(#pattern1)" />

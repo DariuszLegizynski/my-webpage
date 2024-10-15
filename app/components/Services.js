@@ -8,7 +8,7 @@ const Services = async () => {
 				in den unternehmerischen Bereichen.
 			</p>
 			<p>Sowohl Start-ups als auch bereits etablierte Unternehmen.</p>
-			<p className="my-4">ICH VERSTEHE es.</p>
+			<p className="my-4 text-xl">ICH VERSTEHE es.</p>
 		</article>
 	)
 }

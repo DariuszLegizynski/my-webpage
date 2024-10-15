@@ -3,7 +3,6 @@ import Benefit from "./Benefit"
 const Benefits = async () => {
 	return (
 		<article className="my-12">
-			<h1 className="my-8">Mein Name ist Bsc Ing Dariusz Legizynski, ein Programmierer mit über 10 Jahren Berufserfahrung. Ich bin da um zu helfen.</h1>
 			<Benefit
 				iconType="webdevelopment"
 				title="Webdesign & Webdevelopment"

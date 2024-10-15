@@ -4,14 +4,14 @@ const Projects = async () => {
 	const projectCards = [
 		{
 			title: "Volksschule Föhrenwald",
-			description: "Website mit verwalterbaren Inhalten",
+			description: "Website mit verwalterbaren Inhalten.",
 			link: "https://www.vs-foehrenwald.at/",
 			imagePath: "/images/vs-foehrenwald.png",
 		},
 		{ title: "Beckenraum.at", description: "Physiotherapeutin", link: "https://raumbeck.netlify.app/", imagePath: "/images/beckenraum.png" },
 		{
 			title: "LegionMariens.at",
-			description: "E-Commerce mit login und geolocation",
+			description: "E-Commerce mit login und geolocation.",
 			link: "https://legion-mariens-test.at/",
 			imagePath: "/images/legion-mariens.png",
 		},

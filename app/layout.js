@@ -13,7 +13,7 @@ const RootLayout = ({ children }) => {
 		<html lang="en">
 			<body>
 				<Header />
-				<main className="mt-24 px-4">{children}</main>
+				<main className="mt-24 mb-12 px-4">{children}</main>
 			</body>
 		</html>
 	)

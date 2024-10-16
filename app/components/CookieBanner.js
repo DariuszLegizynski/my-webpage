@@ -14,7 +14,6 @@ const CookieBanner = () => {
 
 	const handleConsent = () => {
 		Cookies.set("cookieConsent", "true", { expires: 30 })
-		console.log("hello")
 		setIsBannerVisible(false)
 	}
 

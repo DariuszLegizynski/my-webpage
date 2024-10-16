@@ -1,0 +1,41 @@
+"use client"
+
+import { useState, useEffect } from "react"
+import Link from "next/link"
+import Cookies from "js-cookie"
+
+const CookieBanner = () => {
+	const [isBannerVisible, setIsBannerVisible] = useState(false)
+
+	const isCookie = Cookies.get("cookieConsent")
+	useEffect(() => {
+		setIsBannerVisible(isCookie ? false : true)
+	}, [isCookie])
+
+	const handleConsent = () => {
+		Cookies.set("cookieConsent", "true", { expires: 30 })
+		console.log("hello")
+		setIsBannerVisible(false)
+	}
+
+	return (
+		<>
+			{isBannerVisible ? (
+				<article className="fixed bottom-0 w-full bg-primary p-4 z-50">
+					<p className="text-white pb-4 text-sm">
+						Um ein optimales Nutzererlebnis zu ermöglichen, werden Cookies gesetzt. Durch die weitere Nutzung dieser Website wird der{" "}
+						<Link href="/privacypolicy" className="cursor-pointer text-accent">
+							Datenschutzerklärung
+						</Link>{" "}
+						zugestimmt.
+					</p>
+					<button onClick={handleConsent} className="bg-white px-3 py-2.5 rounded-xl text-primary max-w-44">
+						Akzeptieren
+					</button>
+				</article>
+			) : null}
+		</>
+	)
+}
+
+export default CookieBanner

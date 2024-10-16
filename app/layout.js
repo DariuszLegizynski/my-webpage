@@ -1,4 +1,6 @@
+import CookieBanner from "./components/CookieBanner"
 import Header from "./components/Header"
+import Link from "next/link"
 
 import "@/styles/tailwind.css"
 
@@ -14,6 +16,11 @@ const RootLayout = ({ children }) => {
 			<body>
 				<Header />
 				<main className="mt-24 mb-12 px-4">{children}</main>
+				<CookieBanner />
+				<section className="flex flex-col items-center gap-4 py-8 text-white bg-primary">
+					<Link href="/privacypolicy">Datenschutzerklärung</Link>
+					<Link href="/impressum">Impressum</Link>
+				</section>
 			</body>
 		</html>
 	)

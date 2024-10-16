@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const PrivacyPolicy = async () => {
 	return (
-		<article className="flex flex-col items-center py-24">
+		<article className="flex flex-col items-start py-24">
 			<h1 className="py-8">Datenschutzerklärung</h1>
 			<h2 className="py-4">Einleitung und Überblick</h2>
 			<p className="py-4">

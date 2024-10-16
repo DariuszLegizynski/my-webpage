@@ -22,16 +22,20 @@ const CookieBanner = () => {
 		<>
 			{isBannerVisible ? (
 				<article className="fixed bottom-0 w-full bg-primary p-4 z-50">
-					<p className="text-white pb-4 text-sm">
-						Um ein optimales Nutzererlebnis zu ermöglichen, werden Cookies gesetzt. Durch die weitere Nutzung dieser Website wird der{" "}
-						<Link href="/privacypolicy" className="cursor-pointer text-accent">
-							Datenschutzerklärung
-						</Link>{" "}
-						zugestimmt.
-					</p>
-					<button onClick={handleConsent} className="bg-white px-3 py-2.5 rounded-xl text-primary max-w-44">
-						Akzeptieren
-					</button>
+					<div className="max-w-[1024px] mx-auto">
+						<p className="text-white pb-4 text-sm">
+							Um ein optimales Nutzererlebnis zu ermöglichen, werden Cookies gesetzt. Durch die weitere Nutzung dieser Website wird der{" "}
+							<Link href="/privacypolicy" className="cursor-pointer text-accent">
+								Datenschutzerklärung
+							</Link>{" "}
+							zugestimmt.
+						</p>
+						<div className="flex justify-center">
+							<button onClick={handleConsent} className="bg-white px-3 py-2.5 rounded-xl text-primary max-w-44">
+								Akzeptieren
+							</button>
+						</div>
+					</div>
 				</article>
 			) : null}
 		</>

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Impressum = async () => {
 	return (
-		<article className="flex flex-col items-center py-24">
+		<article className="flex flex-col items-start py-24">
 			<section>
 				<h1 className="py-8 text-center">Impressum</h1>
 				<p className="py-4">

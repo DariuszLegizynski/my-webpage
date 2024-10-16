@@ -47,7 +47,7 @@ const Impressum = async () => {
 					</b>
 				</p>
 			</section>
-			<Link href="/" className="mt-16">
+			<Link href="/" className="mt-16 mx-auto">
 				<strong>&larr; zurück</strong>
 			</Link>
 		</article>

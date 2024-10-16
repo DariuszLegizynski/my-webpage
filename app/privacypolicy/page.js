@@ -847,7 +847,7 @@ const PrivacyPolicy = async () => {
 				von AdSimple
 			</p>
 
-			<Link href="/" className="mt-16">
+			<Link href="/" className="mt-16 mx-auto">
 				<strong>&larr; zurück</strong>
 			</Link>
 		</article>

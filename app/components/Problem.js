@@ -3,23 +3,23 @@ import BaseIcons from "@/components/base/BaseIcons"
 const Problem = async () => {
 	return (
 		<article className="mt-24">
-			<h1 className="pt-12 lg:text-center">Sie haben eine Seite, auf der Sie nichts ändern können?</h1>
+			<h1 className="pt-12 lg:text-center">Sie brauchen eine Seite, auf der Sie Inhalte ändern wollen?</h1>
 			<ul className="grid gap-4 my-8 justify-center">
 				<li className="grid grid-cols-[auto_1fr] gap-x-2 items-center">
 					<BaseIcons width="2rem" height="2rem" type="problem" strokeColor="#008080" />
-					Sie rufen den Programmierer bei jeder Änderung an.
+					Es ist nicht notwendig, den Programmierer bei jeder Änderung anzurufen.
 				</li>
 				<li className="grid grid-cols-[auto_1fr] gap-x-2 items-center">
 					<BaseIcons width="2rem" height="2rem" type="problem" strokeColor="#008080" />
-					Sie warten lange auf die Umsetzung einer Änderung.
+					Umsetzung der Inhalte in Sekundenschnelle.
 				</li>
 				<li className="grid grid-cols-[auto_1fr] gap-x-2 items-center">
 					<BaseIcons width="2rem" height="2rem" type="problem" strokeColor="#008080" />
-					Jede Änderung ist gebührenpflichtig.
+					Keine gebührenpflichtigen Änderungen.
 				</li>
 				<li className="grid grid-cols-[auto_1fr] gap-x-2 items-center">
 					<BaseIcons width="2rem" height="2rem" type="problem" strokeColor="#008080" />
-					Sie verschwenden Zeit und Energie.
+					Keine Zeit- und Energieverschwendung.
 				</li>
 			</ul>
 		</article>

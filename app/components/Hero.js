@@ -3,7 +3,10 @@ import BaseIcons from "@/components/base/BaseIcons"
 
 const Hero = async () => {
 	return (
-		<article id="hero" className="h-[80svh] flex flex-col items-center justify-center pt-24 md:grid md:grid-cols-2 md:gap-x-8 lg:max-w-[1024px] lg:mx-auto">
+		<article
+			id="hero"
+			className="h-[80svh] flex flex-col items-center justify-center pt-24 md:pt-0 md:grid md:grid-cols-2 md:gap-x-8 lg:max-w-[1024px] lg:mx-auto"
+		>
 			<section className="md:order-2">
 				<BaseIcons type="revenue" className="md:w-12 md:h-8 lg:w-14 lg:h-10 xl:w-16 xl:h-12" />
 			</section>

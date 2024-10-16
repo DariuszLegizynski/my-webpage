@@ -4,9 +4,7 @@ const PrivacyPolicy = async () => {
 	return (
 		<article className="flex flex-col items-center py-24">
 			<h1 className="py-8">Datenschutzerklärung</h1>
-			<h2 className="py-4" className="py-4">
-				Einleitung und Überblick
-			</h2>
+			<h2 className="py-4">Einleitung und Überblick</h2>
 			<p className="py-4">
 				Wir haben diese Datenschutzerklärung (Fassung 16.10.2024-112891904) verfasst, um Ihnen gemäß der Vorgaben der{" "}
 				<a

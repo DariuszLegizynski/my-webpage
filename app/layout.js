@@ -17,7 +17,7 @@ const RootLayout = ({ children }) => {
 				<Header />
 				<main className="mt-24 mb-12 px-4">{children}</main>
 				<CookieBanner />
-				<section className="flex flex-col items-center gap-4 py-8 text-white bg-primary">
+				<section className="flex flex-col md:flex-row md:justify-center items-center gap-4 py-8 text-white bg-primary">
 					<Link href="/privacypolicy">Datenschutzerklärung</Link>
 					<Link href="/impressum">Impressum</Link>
 				</section>

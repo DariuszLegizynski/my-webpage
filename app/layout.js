@@ -1,4 +1,4 @@
-import CookieBanner from "./components/CookieBanner"
+import ConsentBanner from "./components/ConsentBanner"
 import Header from "./components/Header"
 import Link from "next/link"
 
@@ -16,7 +16,7 @@ const RootLayout = ({ children }) => {
 			<body>
 				<Header />
 				<main className="mt-24 mb-12 px-4">{children}</main>
-				<CookieBanner />
+				<ConsentBanner />
 				<section className="flex flex-col md:flex-row md:justify-center items-center gap-4 py-8 text-white bg-primary">
 					<Link href="/privacypolicy">Datenschutzerklärung</Link>
 					<Link href="/impressum">Impressum</Link>

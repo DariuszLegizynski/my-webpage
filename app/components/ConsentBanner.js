@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import Cookies from "js-cookie"
 
-const CookieBanner = () => {
+const ConsentBanner = () => {
 	const [isBannerVisible, setIsBannerVisible] = useState(false)
 
 	const isCookie = Cookies.get("cookieConsent")
@@ -41,4 +41,4 @@ const CookieBanner = () => {
 	)
 }
 
-export default CookieBanner
+export default ConsentBanner
